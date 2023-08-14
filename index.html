@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="">
+    <header>
+        <h1 class="text-5xl text-center mt-12 font-bold uppercase text-yellow-800">Digital Tasbih</h1>
+    </header>
+    <main class="container mx-auto mt-14">
+        <div class="flex flex-col lg:flex-row gap-5 my-6 lg:my-0 justify-around items-center">
+            <div
+                class="subhan-allah w-[80%] lg:w-[30%] bg-white h-[350px] rounded-xl drop-shadow-lg flex flex-col justify-center items-center gap-y-8 py-8">
+                <h3 class="text-3xl text-gray-600">Subhan Allah</h3>
+                <p id="subhan-allah-counter-view" class="text-3xl">0</p>
+                <div class="flex gap-x-5">
+                    <button id="dec-subhan-allah" class="btn btn-neutral">Decrement</button>
+                    <button id="inc-subhan-allah" class="btn btn-secondary">Increment</button>
+                </div>
+            </div>
+            <div
+                class="subhan-allah w-[80%] lg:w-[30%] bg-white h-[350px] rounded-xl drop-shadow-lg flex flex-col justify-center items-center gap-y-8 py-8">
+                <h3 class="text-3xl text-gray-600">Alhamdulillah</h3>
+                <p id="alhamdulillah-counter-view" class="text-3xl">0</p>
+                <div class="flex gap-x-5">
+                    <button id="dec-alhamdulillah" class="btn btn-neutral">Decrement</button>
+                    <button id="inc-alhamdulillah" class="btn btn-secondary">Increment</button>
+                </div>
+            </div>
+            <div
+                class="subhan-allah w-[80%] lg:w-[30%] bg-white h-[350px] rounded-xl drop-shadow-lg flex flex-col justify-center items-center gap-y-8 py-8">
+                <h3 class="text-3xl text-gray-600">Allahhu akbar</h3>
+                <p id="allahhuakbar-counter-view" class="text-3xl">0</p>
+                <div class="flex gap-x-5">
+                    <button id="dec-allahhuakbar" class="btn btn-neutral">Decrement</button>
+                    <button id="inc-allahhuakbar" class="btn btn-secondary">Increment</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-12">
+            <button id="reset-tashbih" class="btn btn-outline btn-secondary">Rest Tashbih</button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
